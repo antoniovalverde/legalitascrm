@@ -1,0 +1,11 @@
+input[type="submit"] {
+  background: none;
+  font-size: .85rem !important;
+  border: 0;
+  color: inherit;
+  /* cursor: default; */
+  font: inherit;
+  line-height: normal;
+  overflow: visible;
+  padding: 0;
+}
