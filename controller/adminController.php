@@ -21,6 +21,7 @@
 	switch($act) {
 		case "Usuarios": include_once("../vistas/layouts/usuariosAdmin.php"); break;				// Usuarios
 		case "Contratos": include_once("../vistas/layouts/contratosAdmin.php"); break;				// Contratos
+		case "Agregar Contrato": include_once("../vistas/layouts/agregarContrato.php"); break;		// Agregar Contrato
 		case "Salir": include_once("../controller/salir.php"); 
 					  echo '<script type="text/JavaScript"> location.reload(); </script>'; break;	// Salir
 		

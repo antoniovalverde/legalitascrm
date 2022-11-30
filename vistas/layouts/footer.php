@@ -2,7 +2,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Antonio Valverde 2017 - 2022</span>
+                        <span>Copyright &copy; Antonio Valverde 2022 <?= date("Y") != "2022" ? "- " . date("Y"): ""; ?></span>
                     </div>
                 </div>
             </footer>

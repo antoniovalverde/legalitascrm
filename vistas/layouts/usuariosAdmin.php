@@ -10,7 +10,6 @@
                     <div class="container-fluid">
 
                     <!-- DataTales Example -->
-
                     <?php 
 	                    //Incluimos la clase conexion
 	                    require_once "../clases/conexion.php";
@@ -20,9 +19,7 @@
 	                    //Consulta con todos los usuarios.
 	                    $sql="SELECT * FROM users ORDER BY nombre_user ASC";
 	                    $result=mysqli_query($conexion,$sql);
-?>                    
-
-
+					?>                    
                     <!-- Insertar consulta -->
                     <div class="card shadow mb-4">
                         <div class="card-header py-3">
