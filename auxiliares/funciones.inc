@@ -7,7 +7,7 @@
 	function conexion(){
 		try{
 			//conexion con el servidor de base de datos y selección de la base de datos concreta
-			$conectar = new PDO('mysql:host=localhost;dbname=crmlumar', 'crmlumar', 'Lualforce.82');
+			$conectar = new PDO('mysql:host=localhost;dbname=legalitascrm', 'legalitascrm', 'Lualforce.22');
 		}catch(PDOException $e){
 			echo 'Error conectando con la base de datos: ' . $e->getMessage();
 		}
@@ -25,7 +25,7 @@
 		try{
 			//Primero abrimos la conexión con la base de datos
 			//conexion con el servidor de base de datos y selección de la base de datos concreta
-			$conectar = new PDO('mysql:host=localhost;dbname=crmlumar', 'crmlumar', 'Lualforce.82');
+			$conectar = new PDO('mysql:host=localhost;dbname=legalitascrm', 'legalitascrm', 'Lualforce.22');
 		
 			$conectar->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 			//A continuación
@@ -57,7 +57,7 @@
 		try{
 			//Primero abrimos la conexión con la base de datos
 			//conexion con el servidor de base de datos y selección de la base de datos concreta
-			$conectar = new PDO('mysql:host=localhost;dbname=crmlumar', 'crmlumar', 'Lualforce.82');
+			$conectar = new PDO('mysql:host=localhost;dbname=legalitascrm', 'legalitascrm', 'Lualforce.22');
 		
 			$conectar->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 			//A continuación
@@ -84,7 +84,7 @@
 		try{
 			//Primero abrimos la conexión con la base de datos
 			//conexion con el servidor de base de datos y selección de la base de datos concreta
-			$conectar = new PDO('mysql:host=localhost;dbname=crmlumar', 'crmlumar', 'Lualforce.82');
+			$conectar = new PDO('mysql:host=localhost;dbname=legalitascrm', 'legalitascrm', 'Lualforce.22');
 		
 			$conectar->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 			//A continuación

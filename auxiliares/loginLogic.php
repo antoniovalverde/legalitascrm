@@ -20,7 +20,7 @@
 				session_start();
 				$_SESSION['usuario'] = verificarnombre($_REQUEST['usuario']);
 			
-				header("Location: /crmlumar/controller/adminController.php");
+				header("Location: /legalitascrm/controller/adminController.php");
 				
 			}else{
 				array_push($error, "La contraseña no es correcta");

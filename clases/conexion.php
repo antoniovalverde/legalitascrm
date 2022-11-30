@@ -4,9 +4,9 @@
 		//Función conexión que sirve para pasar los datos de conexión a la BBDD
 		public function conexion(){
 			$conexion=mysqli_connect('localhost',
-										'crmlumar',
-										'Lualforce.82',
-										'crmlumar');
+										'legalitascrm',
+										'Lualforce.22',
+										'legalitascrm');
 										
 			mysqli_set_charset($conexion, 'utf8');
 
